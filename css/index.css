@@ -68,7 +68,6 @@ img {
 .tour-txt-left{
     grid-column: 1;
     font-size: 20px;
-
 }
 .tour-txt-right{
   font-family: "Playfair Display", serif;
@@ -81,6 +80,9 @@ a {
   font-size: 20px;
   color: inherit;
   text-decoration: none;
+}
+ol{
+  font-size: 20px;
 }
 nav {
     z-index: 200;
