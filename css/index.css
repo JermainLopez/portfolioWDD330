@@ -49,21 +49,23 @@ h3 {
   margin: 10px;
 }
 img {
+  max-width: 100%;
   vertical-align: middle;
   border-style: none;
 }
 .tour{
+    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
 .tour-img-left{
     grid-column: 1;
-    width: 100%;
+    max-width: 100%;
 }
 .tour-img-right{
     grid-column: 2;
-    width: 100%;
+    max-width: 100%;
 }
 .tour-txt-left{
     grid-column: 1;
@@ -243,9 +245,8 @@ button {
     margin-left: 10px;
     }
     .tour{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+      display: flex;
+      flex-direction: column;
     }
     .tour-img-left{
     grid-column: 1/ span 2;
