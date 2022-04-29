@@ -78,11 +78,12 @@ img {
 }
 a {
   font-size: 20px;
-  color: inherit;
+  color: rgb(88, 4, 9);
   text-decoration: none;
 }
 ol{
   font-size: 20px;
+  color: rgb(65, 4, 17);
 }
 nav {
     z-index: 200;
