@@ -68,10 +68,12 @@ img {
     max-width: 100%;
 }
 .tour-txt-left{
+    border: rgb(160, 8, 102) 5px solid;
     grid-column: 1;
     font-size: 20px;
 }
 .tour-txt-right{
+  border: rgb(160, 8, 102) 5px solid;
   font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 15px;
