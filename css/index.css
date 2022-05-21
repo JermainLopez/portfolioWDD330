@@ -143,6 +143,7 @@ button {
   }
   /*<!-- Navbar (sit on top) -->*/
 #nav-bar {
+    border: 1px solid #000;
     font-family: "Playfair Display", serif;
     font-size: 30px;
     display: grid;
@@ -153,7 +154,7 @@ button {
     vertical-align: middle;
     padding: 5px;
     position: fixed;
-    background-color: #fbfffd;
+    background-color: #aeaff7;
   }
 .nav-logo img{
     filter: invert();

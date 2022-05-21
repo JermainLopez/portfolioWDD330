@@ -25,9 +25,9 @@
         <nav class="responsive-nav">
           <ul class="navigation">
             <li><a class="ham" href="#"></a></li>
-            <li><a href="rentals" class="bar">Activities</a></li>
+            <li><a href="" class="bar">Home</a></li>
             <li>
-              <a href="reservations" class="bar">2</a>
+              <a href="/sub-pages/activities.html" class="bar">Activities</a>
             </li>
             <li>
               <a href="tours" class="bar">3</a>
@@ -194,12 +194,33 @@
               <p class="faqp">
                   <div class="tour">
                     <div class= "tour-txt-left">
-                      <strong></strong>
-                      <h5></h5>
-                      <p ></p>
-                      
+                      <strong>L05 Readings May 2, 2022 </strong>
+                      <h5>Ajax</h5>
+                      <p>Ajax is a technique that allows web pages to communicate asynchronously with a server, and it dynamically updates web pages without reloading.</p>
+                      <h5>The Fetch API</h5>
+                      <p>The XMLHttpRequest object was finally standardized by the WHATWG and W3C as part of the HTML5 specification, despite it originally being implemented by Microsoft many years earlier, and already available in most browsers.</p>
+                      <h5>Basic Usage</h5>
+                      <p>The Fetch API provides a global fetch() method that only has one mandatory argument, which is the URL of the resource you wish to fetch.  </p>
+                      <img class="tour-img-left" src="IMAGES/java6.jpg" alt="Java 6 image"/>
+                      <h5>JSON Responses</h5>
+                      <p>JSON is probably the most common format for AJAX responses. The json() method is used to deal with these by transforming a stream of JSON data into a promise that resolves to a JavaScript object.</p>
                     </div>
-                  <img class="tour-img-right" src="IMAGES/certificate 1.jpg" alt="Certificate 1"/>
+                    <div class= "tour-txt-right">
+                      <ol>
+                        <h5>Other points:</h5>
+                        <li>Ajax is a technique for sending and receiving data asynchronously in the background.</li>
+                        <li>The data can be sent in many forms, but it is usually in JSON.</li>
+                        <li>Ajax can be used for making partial page updates without having to do a full page reload.</li>
+                        <li>Ajax can be used for communicating with external APIs.</li>
+                        <li>Ajax requests can be made using the Fetch API.</li>
+                        <li>The Response interface allows you to control the response received from a request or to create your own response objects.</li>
+                        <li>The Request interface allows you to create a request object that contains information about the request being made, such as the URL and headers.</li>
+                        <li>The Headers interface allows you to create HTTP headers that can be added to a request or response object.</li>
+                        <li>Requests can retrieve data using a GET request, or send data using a POST request.</li>
+                        <li>The FormData interface makes it easier to send data from forms</li>
+                      </ol>
+                    </div>
+                  
                   </div>
               </p>
             </div>
@@ -210,12 +231,32 @@
             <div class="content">
               <p class="faqp">
                 <div class="tour">
-                    <img class="tour-img-left" src="IMAGES/cetificate2.png" alt="Certificate 2"/>
-                    <div class= "tour-txt-right">
-                      <strong></strong>
-                      <h5></h5>
-                      <p ></p>
-                      </div>
+                  <div class= "tour-txt-left">
+                    <strong>May 6, 2022</strong>
+                    <h5>Forms</h5>
+                    <p>Forms are made up of a form element that contains form controls such as input fields, select menus and buttons. These input fields can be populated with information that is processed once the form has been submitted.</p>
+                    <h5>Accessing Form Elements</h5>
+                    <p>The legacy DOM had a useful property called document.forms that returns an HTML collection of all the forms in the document in the order they appear in the markup.</p>
+                    <p>We can also access the form controls using their 'name' attributes as if it was a property of the form object.</p>
+                    <h5>Client-side form validation</h5>
+                    <p>This is called client-side form validation, and helps ensure data submitted matches the requirements set forth in the various form controls.</p>
+                    <p>Client-side validation is an initial check and an important feature of good user experience; by catching invalid data on the client-side, the user can fix it straight away. If it gets to the server and is then rejected, a noticeable delay is caused by a round trip to the server and then back to the client-side to tell the user to fix their data.</p>
+                  </div>
+                  <div class= "tour-txt-right">
+                    <h5>Why do we insist on validating our forms? There are three main reasons:</h5>
+                    <p><strong>•	We want to get the right data, in the right format. </strong>Our applications won't work properly if our users' data is stored in the wrong format, is incorrect, or is omitted altogether.</p>
+                    <p><strong>•	We want to protect our users' data. </strong>Forcing our users to enter secure passwords makes it easier to protect their account information.</p>
+                    <p><strong>•	We want to protect ourselves. </strong>There are many ways that malicious users can misuse unprotected forms to damage the application.</p>
+                    <h5>There are two different types of client-side validation that you'll encounter on the web:</h5>
+                    <p><strong>•	Built-in form validation </strong>uses HTML5 form validation features, which we've discussed in many places throughout this module. </p>
+                    <p><strong>•	JavaScript </strong>validation is coded using JavaScript</p>
+                    <h5>Always remember to help your users correct the data they provide. To that end, be sure to:</h5>
+                    <ul>
+                      <li>Display explicit error messages.</li>
+                      <li>Be permissive about the input format.</li>
+                      <li>Point out exactly where the error occurs, especially on large forms.</li>
+                    </ul>
+                  </div>
                 </div>
               </p>
             </div>
@@ -227,12 +268,34 @@
               <p class="faqp">
                   <div class="tour">
                     <div class= "tour-txt-left">
-                      <strong></strong>
-                      <h5></h5>
-                      <p ></p>
-                      
+                      <h5>Callback Hell</h5>
+                      <p>The increase in the use of asynchronous programming in JavaScript has meant that more and more callbacks are being used. This can result in messy and confusing 'spaghetti code'. This is when more than one callback is used in the same function, resulting in a large number of nested blocks that are difficult to comprehend.</p>
+                      <p>Functions are able to dynamically redefine themselves in the body of the function, depending on certain conditions.</p>
+                      <p>A recursive function will keep invoking itself until a certain condition is met.</p>
+                      <p>A callback is a function that’s provided as an argument to another function</p>
+                      <p>Callbacks are frequently used in asynchronous programming as part of the event loop. This means that a program can continue to run in a single thread while waiting for another task to be completed.</p>
+                      <p>Promises can be used instead of callbacks to deal with multiple asynchronous actions in sequence. They also provide a nicer mechanism for handling errors.</p>
+                      <p>Functions that return other functions are known as higher-order functions.</p>
+                      <p>A closure is the process of keeping a reference to a variable available outside the scope of the function it was originally defined in.</p>
+                      <p>A generator is created by placing an asterisk character (*) after the function keyword.</p>
+                      <p>A generator function will return an iterator object that provides a next() method, which returns the next value in a sequence that is defined in the generator function.</p>
+                      <p>Functional programming involves breaking processes down into steps that can be applied as a series of functions.</p>
+                      <p>Pure functions are functions that don't rely on the state of the code they are called from, have no side-effects, and always give the same result when given the same arguments (referential transparency).</p>
+                      <p>Currying or partial application is the process of applying one argument at a time to a function. A new function is returned until all the arguments have been used.</p>
+                      <p>In the next chapter, we’ll be looking at the principles of object-oriented programming in JavaScript.</p>
                     </div>
-                  <img class="tour-img-right" src="IMAGES/certificate 1.jpg" alt="Certificate 1"/>
+                    <div class= "tour-txt-right">
+                      <h5>Function Properties and Methods</h5>
+                      <p>Functions have built-in properties such as length, but can have custom properties added.</p>
+                      <p>All functions have call() and apply() methods that can invoke a function with the value of this bound to an object that is provided as an argument. The call() method can be used to set the value of this inside a function to an object that is provided as the first argument.</p>
+                      <p>Immediately Invoked Function Expressions or IIFEs are functions that are enclosed in parentheses and immediately followed by double parentheses so they’re invoked. They are useful for name spacing variables and setting default values.</p>
+                      <h4>CSS3 Transforms and Transitions</h4>
+                      <h5>Transforms</h5>
+                      <p>The CSS3 transform property lets you lets you translate, rotate, scale, and/or skew any element on the page. While some of these effects were possible using previously existing CSS features (such as translating with relative and absolute positioning), CSS3 gives you unprecedented control over many more aspects of the element’s appearance.</p>
+                      <h5>Transitions</h5>
+                      <p>Animation has certainly been possible for some time with JavaScript, but native CSS transitions generally require less client-side processing, so they’ll usually appear smoother. On mobile devices with limited computing power, this can be a lifesaver.</p>
+                      <p>With transforms, transitions, and animations, our site is looking more dynamic. Remember the old maxim, though: just because you can, doesn’t mean you should. Animations were aplenty on the Web in the late 90s; a lot of us remember flashing banners and scrolling marquees, and animated gifs were less entertaining than those that are popular today.</p>
+                    </div>
                   </div>
               </p>
             </div>
@@ -243,12 +306,41 @@
             <div class="content">
               <p class="faqp">
                 <div class="tour">
-                    <img class="tour-img-left" src="IMAGES/cetificate2.png" alt="Certificate 2"/>
-                    <div class= "tour-txt-right">
-                      <strong></strong>
-                      <h5></h5>
-                      <p ></p>
-                      </div>
+                  <div class= "tour-txt-left">
+                    <strong>May 12, 2022</strong>
+                    <p><strong>JSON Web Token (JWT) </strong>is an open standard that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be signed using a secret (with HMAC algorithm) or a public/private key pair using RSA.</p>
+                    <p>Compact: Because of its size, it can be sent through an URL, POST parameter, or inside an HTTP header. Additionally, due to its size its transmission is fast.</p>
+                    <p>Self-contained: The payload contains all the required information about the user, to avoid querying the database more than once.</p>
+                    <h5>JWTs consist of three parts separated by dots (.), which are:</h5>
+                    <h5>Header</h5>
+                    <p>The header typically consists of two parts: the type of the token, which is JWT, and the hashing algorithm such as HMAC SHA256 or RSA.</p>
+                    <h5>Payload</h5>
+                    <p>The second part of the token is the payload, which contains the claims. Claims are statements about an entity (typically, the user) and additional metadata. There are three types of claims: reserved, public, and private claims.</p>
+                    <h5>Signature</h5>
+                    <p>To create the signature part, you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.</p>
+                  </div>
+                  <div class= "tour-txt-right">
+                    <h5>Develop, Debug, Learn? (VIDEO)</h5>
+                    <p>We are obsessed with coding and creating automated workflows and optimizations. And yet our final products aren't making it easy for people to use them. Somewhere, we lost empathy for our end-users and other developers. Maybe it is time to change that. Here are some ideas.</p>
+                    <ol>
+                      <h5>Filling the needs</h5>
+                      <li>Availability</li>
+                      <li>Accessibility</li>
+                      <li>Security</li>
+                      <li>Mutability</li>
+                    </ol>
+                    <ol>
+                      <h5>Adding quality</h5>
+                      <li>Enhanced performance</li>
+                      <li>Extended availability</li>
+                      <li>Customizability</li>
+                    </ol>
+                    <ol>
+                      <h5>Creating delight</h5>
+                      <li>Making full use of the platform in a safe manner</li>
+                      <li>Predict usage and prevent simple mistakes </li>
+                    </ol>
+                  </div>
                 </div>
               </p>
             </div>
@@ -260,12 +352,29 @@
               <p class="faqp">
                   <div class="tour">
                     <div class= "tour-txt-left">
-                      <strong></strong>
-                      <h5></h5>
-                      <p ></p>
-                      
+                      <strong>May 17, 2022</strong>
+                      <h5>The data- Attribute</h5>
+                      <p>The data- attribute is a way of embedding data in a web page using custom attributes that are ignored by the browser.</p>
+                      <p>The HTML5 specification contains a number of APIs that help to gain access to hardware, such as cameras, batteries, geolocation, and the graphics card. Hardware evolves quickly, and APIs are frequently introduced to give developers access, and control new features that appear in the latest devices.</p>
+                      <h5>Geolocation</h5>
+                      <p>The Geolocation API is used to obtain the geographical position of the device. This means it can be used to find the user’s exact location, then link to nearby places or measure the speed at which the user is moving. This information can then be used to filter data based on the user's location or speed and direction of travel.</p>
+                      <h5>Web Workers</h5>
+                      <p>Web workers allow processes to be run in the background, adding support for concurrency in JavaScript.</p>
+                      <p>The Notification API allows you to show messages using the system's notifications. This is usually a popup in the corner of the screen, but it changes depending on the operating system. An advantage of using the system notification is that they will still be displayed even if the web page that calls them isn't the current tab.</p>
                     </div>
-                  <img class="tour-img-right" src="IMAGES/certificate 1.jpg" alt="Certificate 1"/>
+                    <div class= "tour-txt-right">
+                      <h5>Audio and video clips also have a number of events that will fire when they occur, including:</h5>
+                      <ul>
+                        <li>The play event, which fires when the clip starts and when it resumes after a pause.</li>
+                        <li>The pause event, which fires when the clip is paused.</li>
+                        <li>The volumechange event, which fires when the volume is changed.</li>
+                        <li>The loadedmetadata event, which we saw in the note above, and which fires when all the video's metadata has loaded</li>
+                      </ul>
+                      <h5>Canvas, SVG, and Drag and Drop</h5>
+                      <p>With canvas, we can draw shapes and lines, arcs and text, gradients and patterns. In addition, canvas gives us the power to manipulate pixels in images and even video.</p>
+                      <p>SVG stands for Scalable Vector Graphics, a specific file format that allows you to describe vector graphics using XML. A major selling point of vector graphics in general is that, unlike bitmap images (such as GIF, JPEG, PNG, and TIFF).</p>
+                      <p>XML stands for extensible Markup Language. Like HTML, it’s a markup metalanguage. In plain English, it’s a system meant to annotate text. Just as we can use HTML tags to wrap our content and give it meaning, so can XML tags be used to describe data, such as the content of a file.</p>
+                    </div>
                   </div>
               </p>
             </div>
@@ -276,24 +385,31 @@
             <div class="content">
               <p class="faqp">
                 <div class="tour">
-                    <img class="tour-img-left" src="IMAGES/cetificate2.png" alt="Certificate 2"/>
-                    <div class= "tour-txt-right">
-                      <strong></strong>
-                      <h5></h5>
-                      <p ></p>
-                      </div>
+                  <div class= "tour-txt-left">
+                    <strong>May 20, 2022</strong>
+                    <h5>Introduction to Functions, Execution Context and the Call Stack</h5>
+                    <p>We need to understand what is actually going on inside our function since this is where we modify the values of our variables. If we understand how each part of the function works, we will be ready to solve many code problems.</p>
+                    <p>Every time we call a function, what JavaScript does is create the runtime environment that makes it possible for our value to parse the entire function, the function can modify every variable that passes through it. When we get into the complex parts of JavaScript. Many complex parts will emerge and higher-order functions will be found. We will also come across callback and call stack functions in JavaScript.</p>
+                    <p>Our higher-order function is a function that can take another function, it can also take other functions. The callback function is the little baby passing by. So the outer function that takes the function is a higher-order function.</p>
+                    <p>In simpler terms, functional programming is a form of programming where you can pass functions as parameters to other functions and also return them as values. In functional programming, we think and code in terms of functions.</p>
+                  </div>
+                  <div class= "tour-txt-right">
+                    <h5>Functions in JavaScript</h5>
+                    <p>They can coexist and be handled like any other JavaScript object.</p>
+                    <p>Assigned to variables and properties of other objects</p>
+                    <p>Passed as arguments in functions</p>
+                    <p>Returned as function values</p>
+                    <p>JavaScript es un lenguaje sincrónico, lo que significa que hacemos cada línea, la terminamos y, cuando terminamos, pasamos a la siguiente línea.</p>
+                  </div>
                 </div>
               </p>
             </div>
-
-
-
         </div>
     </section>
     <hr>
     <!-- Class info -->
     <footer class="classinfo">
-        <p>WDD 230 - Section 11 - Jermain Lopez </p>
+        <p>WDD 330 - Section 11 - Jermain Lopez </p>
     </footer>
       
     <!-- <script src="js/register.js"></script> -->
