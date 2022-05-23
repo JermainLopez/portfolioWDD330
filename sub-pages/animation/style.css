@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-danger: #e00000;
+  --color-danger-hover: #ff0000;
+}
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: #7dc6f7;
+}
+svg {
+  fill: currentColor;
+}
+
+
+/* BAGPACK BUTTON*/
+.button-add{
+  align-items: center;
+  transition: background 0.9s;
+}
+.button-add:hover{
+  background-color: aqua;
+}
+.button-add:active{
+  background-color: aqua;
+}
+/* BAGPACK*/
+.icon-bagpack{
+  margin-left: -40px;
+  --btn-size: 2rem;
+  height: var(--btn-size);
+  width: var(--btn-size);
+  position: absolute;
+}
+.icon-bagpack-icon-top, .icon-bagpack-icon-bottom{
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  transform: scale(0.9);
+  z-index: 1;
+}
+.button-add .icon-bagpack-icon-top{
+  animation: trash-top 3.1s forwards;
+}
+@keyframes trash-top{
+  25%, 35%{
+    transform: translateY(-10px) scale(0.6) ;
+  }
+  70%, 80%{
+    transform: translateY(-10px)  scale(0.6) ;
+  }
+}
+.button-add .icon-bagpack-icon-bottom{
+  animation: trash-bottom 2.1s forwards;
+}
+@keyframes trash-bottom{
+  25%, 80%{
+    transform: translateY(10px) scale(0.8);
+  }
+}
+.button-add .button-text-plus{
+  animation: text-plus 2.1s forwards;
+  z-index: 1;
+}
+@keyframes text-plus{
+  25%, 35%{
+    transform: translateY(-10px) scale(0.7) ;
+  }
+  70%, 80%{
+    transform: translateX(-10px) scale(2);
+    opacity: 1;
+  }
+  85%, 95%{
+    opacity: 0;
+  }
+}
+.items-on-bagpack{
+  transform: scale(0.01);
+}
+.button-add2{
+  color: #FFFF;
+  border: 1px solid #FFFF;
+  text-align: center;
+  width: 20px;
+  transform: scale(1);
+  margin-left: -14px;
+  margin-top: -10px;
+  background: #ff0000;
+  padding-bottom: 3px;
+  border-radius: 50%;
+
+}
+
+
+
+
+
+/*TEXT BUTTON*/
+.button-text-plus{
+  transform: scale(0.3);
+  font-size: 2%;
+  max-width: 100%;
+  z-index: 0;
+  position: absolute;
+  background: lightgreen;
+  border-radius: 50%;
+  border: black solid 2px;
+}
+
+
+path{
+  transform: scale(0.3);
+  width: 20%;
+  height: 20%;
+}

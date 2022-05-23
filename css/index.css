@@ -22,7 +22,7 @@ html {
 header{
   display: block;
   background-image: url("/IMAGES/BYU.jpg");  
-  background-color: #cccccc;
+  background-color: #0a3361;
   background-size: 100% 600px;
   background-repeat: no-repeat;
   height: 600px;
@@ -406,4 +406,3 @@ ul {
 .classinfo{
     text-align: center;
 }
-  
